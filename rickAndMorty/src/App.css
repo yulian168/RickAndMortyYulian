@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container-1{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.encabezado{
+    grid-column: 1/2;
+    
+}
+.Muñecos{
+    grid-column: 2/3;
+}
